@@ -5,8 +5,8 @@ export default () => (
     <Page className='bg-black flex flex-col h-screen relative'>
         <div className='m-12 text-center space-y-4 flex-none'>
             {/* Top */}
-            <h1 className='text-8xl'>謹弔</h1>
-            <h2 className='text-3xl'>삼가 고인의 명복을 빕니다</h2>
+            <h1 className='text-8xl font-bold'>謹弔</h1>
+            <h2 className='text-3xl font-bold'>삼가 고인의 명복을 빕니다</h2>
         </div>
         <div className='flex-1 overflow-hidden'>
             {/* Bottom */}
