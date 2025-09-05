@@ -15,7 +15,7 @@ export default () => (
                 src={Character}
             />
         </div>
-        <p className='absolute top-0 right-0 text-xs p-4 text-right'>
+        <p className='absolute top-0 right-0 text-xs p-4 text-right font-thin'>
             이 캐릭터의 저작권은{' '}
             <a
                 href='https://x.com/f0r_commu_'
