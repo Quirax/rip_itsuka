@@ -1,5 +1,4 @@
 import Page from '../components/Page'
-import Chrysanthemum from '/chrysanthemum.png'
 import Character from '/character.png' // TODO: 이츠카 시네로 변경 (현재 임시로 세피로트 사용)
 
 export default () => (
@@ -11,18 +10,10 @@ export default () => (
         </div>
         <div className='flex-1 overflow-hidden relative'>
             {/* Bottom */}
-            <div className='h-full w-full'>
-                <img
-                    className='m-auto h-full'
-                    src={Character}
-                />
-            </div>
-            <div className='h-1/2 w-full absolute bottom-0'>
-                <img
-                    className='h-full m-auto'
-                    src={Chrysanthemum}
-                />
-            </div>
+            <img
+                className='m-auto h-full'
+                src={Character}
+            />
         </div>
     </Page>
 )
