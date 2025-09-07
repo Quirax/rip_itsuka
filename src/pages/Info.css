@@ -1,0 +1,16 @@
+@reference "../index.css";
+
+@layer components {
+    dl#funeral-info {
+        @apply text-gray-500 text-2xl;
+    }
+
+    dl#funeral-info > div > * {
+        @apply inline-block;
+    }
+
+    dl#funeral-info > div > dt::after {
+        content: ':';
+        @apply mr-2;
+    }
+}
