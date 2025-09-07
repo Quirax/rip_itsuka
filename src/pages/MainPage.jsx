@@ -2,7 +2,7 @@ import Page from '../components/Page'
 import Character from '/character.png' // TODO: 이츠카 시네로 변경 (현재 임시로 세피로트 사용)
 
 export default () => (
-    <Page className='bg-black flex flex-col h-screen relative'>
+    <Page className='bg-black flex flex-col h-screen relative text-white'>
         <div className='m-14 text-center space-y-4 flex-none'>
             {/* Top */}
             <h1 className='text-8xl font-bold'>謹弔</h1>
@@ -15,7 +15,7 @@ export default () => (
                 src={Character}
             />
         </div>
-        <p className='absolute top-0 right-0 text-xs p-4 text-right font-thin'>
+        <p className='absolute top-0 right-0 text-xs p-4 text-right font-thin text-gray-500'>
             이 캐릭터의 저작권은{' '}
             <a
                 href='https://x.com/f0r_commu_'
