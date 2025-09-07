@@ -1,4 +1,5 @@
 import Page from '../components/Page'
+import './Info.css'
 
 export default () => {
     const today = new Date()
@@ -6,9 +7,9 @@ export default () => {
     funeralDate.setDate(today.getDate() + 3)
 
     return (
-        <Page className='flex flex-col justify-around items-center'>
+        <Page className='flex flex-col justify-evenly items-center'>
             <div className='text-center space-y-6'>
-                <h2 className='text-3xl font-bold'>
+                <h2 className='text-3xl font-bold text-gray-500'>
                     {today.getFullYear()}년 {today.getMonth() + 1}월 {today.getDate()}일
                 </h2>
                 <h1 className='text-6xl font-bold'>
@@ -17,10 +18,10 @@ export default () => {
                     영면하셨습니다
                 </h1>
             </div>
-            <dl>
+            <dl id='funeral-info'>
                 <div>
                     <dt>고인</dt>
-                    <dd>苦 이츠카 시네 (향년 18세)</dd>
+                    <dd>故 이츠카 시네 (향년 18세)</dd>
                 </div>
                 <div>
                     <dt>빈소</dt>
