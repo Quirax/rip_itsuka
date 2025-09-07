@@ -1,3 +1,4 @@
+import DeathLog from './pages/DeathLog'
 import Info from './pages/Info'
 import MainPage from './pages/MainPage'
 
@@ -6,6 +7,7 @@ function App() {
         <>
             <MainPage />
             <Info />
+            <DeathLog />
         </>
     )
 }
